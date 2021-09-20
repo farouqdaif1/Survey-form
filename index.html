@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Microverse Survey Form</h1> 
+   <p id="description">Thank you for taking the time to help us improve the platform</p>
+ <form id="survey-form">
+  <div>
+    <label id="name-label" >Name : </label>  
+    <br>
+  <input type="text" id="name" placeholder="Enter your name" required>
+ </div>
+ <br>
+ <div>
+     <label id="email-label" >Email : </label >  
+      <br>
+   <input type="email" id="email" placeholder="Enter your email" required>
+  </div>
+  <br>
+  <div>
+    <label id="number-label" >Number : </label>  
+    <br>
+   <input type="text" id="number" placeholder="Enter your number" required>
+  </div>
+  <br>
+  <div>
+    <label >What is your favorite feature of Microverse?</label>
+    <br>
+   <select  id="dropdown">
+     <option> challengs  </option>
+     <option > Projects </option>
+     <option > community</option>
+     <option > Open source</option>
+   </select>
+   
+  </div>
+  <br>
+  <div>
+    <p>Would you recommend Microverse to a friend?</p>
+    <input type="radio" id="Definitely" name="option" value="Definitely">
+    <label for="Definitely">Definitely</label><br>
+    <input type="radio" id="Maybe" name="option" value="Maybe">
+    <label for="Maybe">Maybe</label><br>
+    <input type="radio" id="Notsure" name="option" value="Not sure">
+    <label for="Notsure">Not sure</label>
+  </div>
+  <br>
+  
+  <div>
+    <p>What would you like to see improved?</p>
+    <input type="checkbox" id="Front-endProjects" name="option" value="Front-endProjects">
+    <label for="Front-endProjects">Front-end Projects</label><br>
+    <input type="checkbox" id="DataVisualization" name="option" value="DataVisualization">
+    <label for="DataVisualization">Data Visualization</label><br>
+    <input type="checkbox" id="Back-endProjects" name="option" value="Back-endProjects">
+    <label for="Back-endProjects">Back-end Projects</label>
+  </div>
+  <div>
+    <label for="comment">Any comments or suggestions?</label>
+    <br>
+    <textarea id="comment" name="commnts" rows="4" cols="50">Enter your comment here ...
+    </textarea>
+      </div>
+      <br>
+      <input type="submit" id="submit" >
+ </form>
+   
+</body>
+</html>
